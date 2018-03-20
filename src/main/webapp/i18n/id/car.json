@@ -1,0 +1,27 @@
+{
+    "gatewayApp": {
+        "car" : {
+            "home": {
+                "title": "Cars",
+                "createLabel": "Buat Car baru",
+                "createOrEditLabel": "Buat atau edit Car"
+            },
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Car {{ id }}?"
+            },
+            "detail": {
+                "title": "Car"
+            },
+            "make": "Make",
+            "model": "Model",
+            "price": "Price"
+        }
+    },
+    "carsappApp": {
+        "car" : {
+            "created": "Car dengan id {{ param }} telah dibuat",
+            "updated": "Car dengan id {{ param }} telah diperbaharui",
+            "deleted": "Car dengan id {{ param }} telah dihapus"
+        }
+    }
+}
